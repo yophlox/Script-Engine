@@ -76,7 +76,7 @@ class PlayState extends FlxState
         if (fileName != null) {
             textMessage = "Error reading script " + fileName + ", or it's not formatted properly!";
         }
-        var text = new FlxText(0, 0, 0, textMessage, 64);
+        var text = new FlxText(0, 0, 0, textMessage, 24);
         text.screenCenter();
         add(text);
         trace(textMessage);
