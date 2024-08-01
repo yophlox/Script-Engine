@@ -3,7 +3,7 @@
 
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Script Engine" file="HScriptTemplate" main="Main" version="1.0.0" company="YoPhlox" />
+	<app title="Script Engine" file="ScriptEngine" main="Main" version="1.0.0" company="YoPhlox" />
 	<app preloader="flixel.system.FlxPreloader" />
 
 	<!--Minimum without FLX_NO_GAMEPAD: 11.8, without FLX_NO_NATIVE_CURSOR: 11.2-->
