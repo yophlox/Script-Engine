@@ -4,7 +4,7 @@
 
 * imports that you MIGHT need:
 
-import flixel.util.FlxColor;
+* import flixel.util.FlxColor;
 
 
 * Current libs and classes you can use:
