@@ -23,6 +23,7 @@ import sys.io.File;
 import util.Util;
 import util.Cache;
 import flixel.addons.display.FlxBackdrop;
+import haxe.Json;
 
 using StringTools;
 
@@ -67,7 +68,8 @@ class Script
         interp.variables.set("FlxBackdrop", FlxBackdrop);
 		interp.variables.set("FlxAtlasFrames", FlxAtlasFrames);
 		interp.variables.set("FlxAtlas", FlxAtlas);
-
+		interp.variables.set("Json", Json);
+		interp.variables.set("AssetSystem", AssetSystem);
 
 		interp.allowStaticVariables = interp.allowPublicVariables = true;
 
